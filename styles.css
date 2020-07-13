@@ -2,6 +2,8 @@
 h1
 {
     text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 40px;
 }
 
 nav
@@ -25,6 +27,7 @@ h2
 h4
 {
     margin-left: 55px;
+    font-weight: 900;
 }
 
 hr {
@@ -34,6 +37,8 @@ hr {
 body {
   background-color: white;
   color: black;
+  font-family: 'Muli', sans-serif;
+  font-size: larger;
 }
 
 /* Dark mode */
@@ -55,7 +60,7 @@ body {
     font-size: smaller;
 }
 .dark-mode-navbar {
-    background-color: forestgreen;
+    background-color: dodgerblue;
 }
 
 /* Image */
@@ -119,7 +124,7 @@ div.img-caption
 {
     text-align:left; 
     font-size:large;
-    font-weight: 500;
+    font-weight: bolder;
     margin-left: 55px;
     margin-top: 50px;
 }
@@ -127,7 +132,6 @@ div.img-caption
 {
     text-align:left;
     font-size: large;
-    font-weight: 400;
     margin-left: 55px;
     margin-right: 40px;
 }
