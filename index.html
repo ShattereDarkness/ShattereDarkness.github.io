@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+
+        <h1>Computers</h1>
+
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="CPU.html">CPU</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Storage.html">Storage</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Monitor.html">Monitor</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="CPU.html">CPU</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Storage.html">Storage</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Monitor.html">Monitor</a>
+              </li>
+            </ul>
+          </div>
+        </nav> -->
+      
+        <!-- Dark mode toggle button -->
+        <button id="darkmodebutton" class="dark-mode-toggle">
+          <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+        </button>
+        <div style="top:1em; right: 5em; position: absolute;">
+          <p>Dark mode</p>
+        </div>
+        <script src="darkmode.js"></script>  
+      
+      <div>
+        <!--Content-->
+        <p class="main_para">
+        Computers play a major role in our lives. Technically any machine that can be programmed
+        to perform operations can be called a computer, 
+        such as calculator, phones, etc. Our focus will be only on personal computers, aka PCs - desktops and laptops. Mainly about the 
+        main components in these systems - the CPU, Storage, monitor, etc.
+        </p>
+        <p class="sub_para">
+        This website will attempt to give some basic information about computers, such as how CPU can make a difference, what some 
+        marketing terms mean, etc. Although I'll try my best to keep the information as accurate as possible, it is meant to be used as
+        a rough guide only.
+        </p>
+        <p class="sub_para">
+        This knowledge is what I've accumalated by watching videos, and reading stuff related to this obsessively on the internet.
+        I haven't used most of this in real life, but most of it will be correct. So many people fall prey to marketing terms and buy 
+        something they regret. Buyer's remorse sucks. If someone does read this, then hopefully it'll help you take a better decision.
+        I'll try to keep it as short and simple as possible. <br>
+        </p>
+        <p style="font-weight: 500;" class="sub_para">
+        Select any one topic below:
+        </p>
+
+
+      <!-- Intro photos -->
+      <div class="gallery showhover">
+        <a target="_self" href = "CPU.html">
+          <img src="https://store.hp.com/app/assets/images/uploads/prod/best-laptop-processor-gaming-hero1536011152426.jpg" alt="First slide"  width="600" height="500" />
+        </a>
+          <div class="img-caption">
+            <h5 style="font-weight: 700;">CPU</h5>
+        </div>
+      </div>
+
+      <div class="gallery showhover">
+        <a href = "Storage.html">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Super_Talent_2.5in_SATA_SSD_SAM64GM25S.jpg/400px-Super_Talent_2.5in_SATA_SSD_SAM64GM25S.jpg" alt="Second slide" width="600" height="500">
+        </a>
+        <div class="img-caption">
+            <h5 style="font-weight: 700;">Storage</h5>
+        </div>
+      </div>
+      
+      <div class="gallery showhover">
+        <a href="Monitor.html">
+          <img class="d-block w-100" src="https://www.desktopbackground.org/download/800x600/2014/08/28/816440_computer-monitor-dark-backgrounds-free-vector_900x900_h.jpg"
+          alt="Third slide" width="600" height="500" />
+        </a>
+        <div class="img-caption">
+            <h5 style="font-weight: 700;">Monitor</h5>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>

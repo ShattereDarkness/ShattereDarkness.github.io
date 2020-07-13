@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+
+      <h1>Computers</h1>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="CPU.html">CPU</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Storage.html">Storage</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Monitor.html">Monitor</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      <!-- Dark mode toggle button -->
+      <button id="darkmodebutton" class="dark-mode-toggle">
+        <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+      </button>
+      <div style="top:1em; right: 5em; position: absolute;">
+        <p>Dark mode</p>
+      </div>
+      <script src="darkmode.js"></script>
+
+        <!-- Content -->
+        <h2>CPU</h2>
+        <hr>
+        <h4>Introduction</h4>
+        <p class="sub_para">
+        CPU is probably what confuses most people. There are so many choices to begin with, and 2 companies to choose from. There is no 
+        one-size-fits-all. It really depends on what you want. Whether you want a desktop or laptop also makes a significant difference.
+        <br>
+        To begin with, there are 2 major companies - AMD and Intel. In most cases, AMD offers better performance while being cheaper
+        than Intel. But both have their pros and cons, and you can't rule out one over the other. <br>
+        <br>
+        </p>
+
+        <h4>AMD or Intel?</h4>
+        </div>
+        <p class="sub_para">
+        First, let's talk about desktop chips <br>
+        AMD is known for more cores and performance. Anything that need multi-core performance will be better off with AMD. But check with 
+        the specific software you are going to be using most just in case. <br>
+        Intel, on the other hand, has higher single core performance. This is beneficial in games mainly, where you will generally get 1-5% 
+        higher performance with Intel. Also since Intel has had such high market shares, some software might be optimized more for Intel. 
+        In short, if you are doing any productive work, you will most probably want to go with AMD. But this is for desktops.
+        The latest desktop chips from AMD are Ryzen 3000 series, while in Intel, it is Intel 10th generation. <br>
+        </p>
+
+        <!-- <div class="gallery" style="float: none; width: 600px; margin-left: auto; margin-right: auto;"> -->
+        <figure>
+          <img src="https://laptopmedia.com/wp-content/uploads/2020/01/ryzen-4000-u-series-perf-100826212-large-2.jpg"
+          alt = "i7 vs Ryzen 7" height="auto" class="center"></img>
+          <figcaption>
+            i7 vs Ryzen 7 (laptops)
+          </figcaption>
+        </figure>
+        
+        <p class="sub_para">
+        Now coming to laptops. Keep in mind that AMD laptop chips are 1 generation behind.  So the latest generation in laptops is AMD 4000 series, <br>
+        which is equivalent to 3000 series in desktops. 
+        AMD was far behind last year, with AMD 3000 laptop chips significantly slower than Intel But this year, AMD is significantly 
+        faster and more efficient. The Ryzen 7 4800 series, competition for Intel i7, outperforms the Intel i9! But the Ryzen chips are new and 
+        only a handful of laptops have them. <br>
+        <br>
+        While in desktops, Intel and AMD were quite close, in laptops, the difference is enormous, with AMD far ahead. Though WARNING: we are 
+        talking about the Ryzen 4000 series only. <br>
+        <br>
+        </p>
+
+        <h4>Which processor to buy?</h4>
+
+        <p class="sub_para">
+        This is the part where most people make a mistake. 
+        In Intel there are 4 categories of chips - i3, i5, i7 and i9. There is also Celeron and Atom and other useless things that you shouldn't buy
+        In AMD, there are 4 too - Ryzen 3, Ryzen 5, Ryzen 7 and Ryzen 9. They are competitors to their respective intel chips with the same number. <br>
+        <br>
+        If you are only going to be doing basic tasks like web browsing and MS Word and what not, then an i3/Ryzen 3 is plenty of power.
+        Anything above, that requires power, but not alot of it, such as light photo editing, coding, etc then go with an i5/Ryzen 5. 
+        Anything that's heavier such as high resolution video editing, running virtual machines, etc, an i7/Ryzen 7 will serve you better. 
+        And if you need an i9/Ryzen 9, then you will know. Its only for the heaviest tasks. <br>
+        <br>
+        <figure>
+          <img src="https://www.techspot.com/articles-info/1885/bench/CB20-1.png" alt = "Performance comparison of different chips"
+          style="width: 500px;" class="center"/>
+          <figcaption class="caption">Comparison of different desktop chips of Intel and AMD</figcaption>
+        </figure>
+        </p>
+
+        <h4>Conclusion</h4>
+        
+        <p class = "sub_para">
+        If you are confused about what you need and your workload doesn't include anything heavier than photo editing, then buy an i5/Ryzen 5.
+        It should be powerful enough for most tasks. If web browsing is the most you are going to do, then focus more on other hardware 
+        such as getting a nice display. An i3/Ryzen 3 will be plenty.
+        </p>
+    </body>
+</html>

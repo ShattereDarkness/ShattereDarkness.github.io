@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+
+      <h1>Computers</h1>
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="CPU.html">CPU</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Storage.html">Storage</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Monitor.html">Monitor</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Dark mode toggle button -->
+      <button id="darkmodebutton" class="dark-mode-toggle">
+        <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+      </button>
+      <div style="top:1em; right: 5em; position: absolute;">
+        <p>Dark mode</p>
+      </div>
+      <script src="darkmode.js"></script>
+
+        <h2>Storage</h2>
+        <hr>
+        <h4>Introduction</h4>
+        <p class="sub_para">
+          There are 2 main categories of storage: HDDs, or Hard Disk Drives and SSDs, or Solid State Drives. 
+          In this day and age, many people still use HDDs. This is the main reason many people complain
+          of slow loading times and a slow computer overall. HDDs are cheaper and offer more storage, but SSD, in 2020,
+          is a necessity. The main differences are speed and reliablity
+        </p>
+
+        <p class="sub_para">
+          SSDs are significantly faster than HDDs. Even the slowest SSD is miles ahead of almost all HDDs. Just putting your 
+          operating system into an SSD gives faster boot times and app loading times. But this doesn't mean HDDs are obsolete.
+          They are still very useful for mass storage, since SSDs are still more expensive. A small SSD combined with a large 
+          HDD is ideal.
+        </p>
+
+        <h4>Which type of SSD to buy?</h4>
+        <p class="sub_para">
+          If you look up SSDs on Amazon or some other website, then you may see many confusing and cryptic terms such as 
+          SATA, or NvMe. There are also different form factors - 2.5 inch ones and the thing stick like ones. 
+          Basically, there are 2 main types of SSDs - SATA and m.2 NVMe. SATA technology is older, and hence is cheaper, but m.2 
+          is new and faster. SATA drives are usually 2.5 inch metallic drives, while m.2 drives are thin and go directly on 
+          the motherboard of the system.
+        </p>
+
+        <!-- Photos -->
+      <div class="gallery" style="margin-left: 60px; width:330px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg/220px-SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg" 
+          alt="First slide"   class="noHover" />
+          <div class="img-caption">
+            <h5 style="font-weight: 700;">NVMe m.2 SSD</h5>
+        </div>
+      </div>
+
+      <div class="gallery" style="margin-left: 90px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Super_Talent_2.5in_SATA_SSD_SAM64GM25S.jpg/400px-Super_Talent_2.5in_SATA_SSD_SAM64GM25S.jpg" 
+        alt="Second slide"/>
+        <div class="img-caption">
+            <h5 style="font-weight: 700;">A 2.5" SATA SSD</h5>
+        </div>
+      </div>
+      
+      <div class="gallery"  style="width:33%;">
+          <img class="d-block w-100" src="https://images.techhive.com/images/article/2013/09/seagate_hard_drive_580-100053266-large.jpg"
+          alt="Third slide" />
+        <div class="img-caption">
+            <h5 style="font-weight: 700;">HDD</h5>
+        </div>
+      </div>
+      <br>
+        <p class="sub_para" style="clear: both;">
+           For web browsing, office applications and gaming, most NVMe SSDs aren’t going to be noticeably faster than SATA models.
+           But for hevier work, like large file transfers, videos or high-end photo editing, compression, decompression, 
+           NVMe SSDs do make a difference. For NVMe drives to work, you would need an m.2 slot in your mother board. 
+           Also beware, some NVMe drives work over SATA, and are not as fast.
+           SSDs are also more reliable than HDDs and aren't as prone to getting damaged by physical falls and so on.
+        </p>
+    </body>
+</html>
